@@ -1,12 +1,23 @@
 
 //problem3
-var myString='';//empty String
-for (var i = 0; i < 10; i++)//loop
+
+//for printing a triangle using stars
+
+//empty String
+var myString = ''";
+
+//for printing a stars piramid
+//loop
+for ( var i = 0; i < 10; i++ )
 {
-  for (var j = 0; j < i + 1; j++)//loop inside a loop
+
+//loop inside a loop
+  for ( var j = 0; j <  i + 1; j++ )
   {
-    myString+='*';
+    myString += " * ";
   }
-  myString+='\n';//new line
+ //new line
+  myString += "\n";
 }
+//printing the output
 console.log(myString);

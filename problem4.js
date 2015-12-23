@@ -1,25 +1,23 @@
 
 //problem4
-var myString2='';//empty String
-for (var i = 10; i >= 1; i--)//for loop
+
+//Problem for printing stars pyramid in reverase
+
+//empty String
+var myString2='";
+
+//to print the stars
+for (var i = 10; i >= 1; i--)
 {
-  for (var j = 0; j < i + 1; j++)//loop inside a loop
+//loop inside a loop
+  for (var j = 0; j < i + 1; j++)
   {
     myString2+='*';
   }
-  myString2+='\n';//new line
+//new line
+  myString2+='\n';
 }
+//printing the output
 console.log(myString2);
 
-var n = 13;
 
-  for(var i=0; i<n ;i++)
-  {
-  for(var j=0;j<n ;j++)
-  {
-  if(i==0)
-  {
-   console.log("*");
-   }
-   }
-   }
